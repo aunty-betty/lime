@@ -440,6 +440,7 @@ class Assets
 			{
 				path = libraryPaths[id];
 				rootPath = Path.directory(path);
+				path = __cacheBreak(path);
 			}
 			else
 			{
